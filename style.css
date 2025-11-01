@@ -1,10 +1,16 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #1db954; /* green background */
-  color: #fff;
-  line-height: 1.6;
+:root {
+  --bg:#0b0e16;
+  --panel:#121524;
+  --text:#e9ecf7;
+  --muted:#a1aac7;
+  --accent:#3b82f6; /* electric blue */
+  --radius:14px;
+  body {
+  font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  color: var(--text);
+  background: radial-gradient(1000px 500px at 70% -10%, rgba(59,130,246,.16), transparent 60%), var(--bg);
 }
+
 
 .container {
   width: 90%;
